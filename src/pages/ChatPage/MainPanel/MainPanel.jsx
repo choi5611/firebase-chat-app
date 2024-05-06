@@ -134,7 +134,7 @@ const MainPanel = () => {
     typingUsers.map((user) => (
       <span key={user.name.userUid}>
         {" "}
-        {user.name.userUid}님이 메세지 입력중...
+        {/* {user.name.userUid}님이 메세지 입력중... */}
       </span>
     ));
 
